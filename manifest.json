@@ -1,0 +1,15 @@
+{
+   "name": "Block Explorer Search",
+   "description": "Add a context menu item to search for selected text on Block Explorers",
+   "version": "1.0",
+   "permissions": [ "contextMenus", "tabs" ],
+   "background": {
+     "scripts": ["blockchainSearch.js"]
+   },
+   "manifest_version": 2,
+   "icons": {
+          "16": "icon-bitty.png",
+          "48": "icon-small.png",
+          "128": "icon-big.png"
+        }
+}
